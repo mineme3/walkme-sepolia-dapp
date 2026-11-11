@@ -1,0 +1,28 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat build",
+    "node": "hardhat node",
+    "deploy:local": "hardhat ignition deploy ignition/modules/WalkMe.ts --network localhost",
+    "deploy:sepolia": "hardhat ignition deploy ignition/modules/WalkMe.ts --network sepolia",
+    "deploy:ritual": "hardhat ignition deploy ignition/modules/WalkMe.ts --network ritual",
+    "export-abi": "node scripts/export-abi.mjs"
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.1.9",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "@types/node": "^26.6.6",
+    "hardhat": "^3.21.2",
+    "typescript": "^7.0.2",
+    "viem": "^2.57.18"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}

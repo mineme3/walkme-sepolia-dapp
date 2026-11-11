@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+
+# Secrets
+.env
+.env*
+!.env.example
+!.env.local.example
+
+# Next.js
+.next
+out
+next-env.d.ts
+
+# Hardhat
+artifacts
+cache
+types
+contracts/ignition/deployments/chain-*
+
+# OS / logs
+.DS_Store
+*.log
