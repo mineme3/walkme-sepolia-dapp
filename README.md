@@ -24,6 +24,7 @@ for a real activity source; swapping in Strava/Google Fit only changes
 
 ## Live deployment (Sepolia)
 
+- **Live app:** https://walkme-sepolia-dapp.vercel.app
 - **Contract:** [`0x407A4b2eD56034c57b0473e450FEf88cbF6e9da3`](https://sepolia.etherscan.io/address/0x407A4b2eD56034c57b0473e450FEf88cbF6e9da3)
 - **Chain:** Sepolia (11155111)
 - **RPC:** `https://ethereum-sepolia-rpc.publicnode.com`

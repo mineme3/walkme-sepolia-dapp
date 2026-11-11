@@ -5,6 +5,7 @@
 One claim per wallet per day, a per-day reward cap, and a hard supply ceiling — enforced by a smart contract, not by a database.
 
 **Live on Sepolia:** [`0x407A4b2eD56034c57b0473e450FEf88cbF6e9da3`](https://sepolia.etherscan.io/address/0x407A4b2eD56034c57b0473e450FEf88cbF6e9da3)
+**Live app:** https://walkme-sepolia-dapp.vercel.app
 
 ---
 
@@ -616,6 +617,7 @@ npm run dev
 | Item | Value |
 |---|---|
 | Contract | [`0x407A4b2eD56034c57b0473e450FEf88cbF6e9da3`](https://sepolia.etherscan.io/address/0x407A4b2eD56034c57b0473e450FEf88cbF6e9da3) |
+| Frontend | https://walkme-sepolia-dapp.vercel.app |
 | Chain | Sepolia (11155111) |
 | Deployer / verifier | `0x71D7Ff2dBd0bff274858eE5846685EEC3B9aB4cf` |
 | Claim transaction | [`0x270c4a8d…f1f65`](https://sepolia.etherscan.io/tx/0x270c4a8dcbf6bffe8b27b206cc5f78686ff53184b89f11faa5bcf2ffb52f1f65) |
